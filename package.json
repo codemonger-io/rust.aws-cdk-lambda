@@ -11,7 +11,7 @@
     "scripts": {
         "build": "tsc",
         "watch": "tsc -w",
-        "publish": "npm run build && npm publish",
+        "prepare": "npm run build",
         "test": "jest",
         "c": "npm run checkAll",
         "u": "npm run updateAll",
